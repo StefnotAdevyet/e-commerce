@@ -1,10 +1,18 @@
-
+import Products from "./components/Products";
 
 function App() {
   return (
-    <div className="App">
-     hello
-    </div>
+    <>
+    <header>
+        <nav>
+          <ul>
+            <li><a href='/shop'>link to shop</a></li>
+          </ul>
+        </nav>
+        <hr/>
+      </header>
+  <Products />
+    </>
   );
 }
 
