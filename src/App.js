@@ -1,17 +1,12 @@
+import React from 'react';
 import Products from "./components/Products";
+import Navbar from "./components/Navbar/Navbar";
 
-function App() {
+const App = () => {
   return (
     <>
-    <header>
-        <nav>
-          <ul>
-            <li><a href='/shop'>link to shop</a></li>
-          </ul>
-        </nav>
-        <hr/>
-      </header>
-  <Products />
+      <Navbar />
+      <Products />
     </>
   );
 }
